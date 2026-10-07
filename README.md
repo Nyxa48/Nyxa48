@@ -53,35 +53,20 @@
 
 ---
 
-## 📈 Activity & Analytics
+## 📈 Activity & Stats
 
 <div align="center">
-
-<!-- GitHub Readme Streak Stats -->
-<a href="https://git.io/streak-stats">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nyxa48&theme=tokyonight&hide_border=true&background=0b0c0e&ring=d9b36c&fire=d9b36c&currStreakNum=e8e6e1" alt="GitHub Streak" width="49%" />
-</a>
-<!-- GitHub Langs -->
-<a href="#">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nyxa48&layout=compact&theme=tokyonight&hide_border=true&title_color=e8e6e1&text_color=9ba1a6&bg_color=0b0c0e" alt="Top Languages" width="49%" />
-</a>
-
-<br /><br />
-
-<!-- GitHub Contribution Graph Activity Card -->
-<a href="#">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nyxa48&theme=tokyo-night&bg_color=0b0c0e&hide_border=true&color=d9b36c&line=d9b36c&point=e8e6e1" width="100%" alt="Activity Graph" />
-</a>
-
-<br />
-
-<!-- Trophies Widget -->
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=Nyxa48&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
-</a>
-
+  <table border="0" style="border-collapse: collapse; border: none;">
+    <tr style="border: none;">
+      <td style="border: none; padding: 0 10px;" align="center" valign="middle">
+        <img src="https://github-readme-stats.vercel.app/api?username=Nyxa48&show_icons=true&theme=tokyonight&hide_border=true&title_color=d9b36c&icon_color=d9b36c&text_color=9ba1a6&bg_color=0b0c0e" alt="Nyxa48 GitHub Stats" height="175" />
+      </td>
+      <td style="border: none; padding: 0 10px;" align="center" valign="middle">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nyxa48&layout=compact&theme=tokyonight&hide_border=true&title_color=d9b36c&text_color=9ba1a6&bg_color=0b0c0e&hide=html,css" alt="Top Languages" height="175" />
+      </td>
+    </tr>
+  </table>
 </div>
-
 ---
 
 ## 💡 Engineering Principles
