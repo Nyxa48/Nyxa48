@@ -9,27 +9,38 @@
 [![Location](https://img.shields.io/badge/Location-Turkey-24292e?style=flat-square&logo=googlemaps&logoColor=white)](#)
 
 <p align="center">
-  <em>Building resilient backend services, scalable distributed systems, and clean web applications with an uncompromising focus on Test-Driven Development (TDD) and clean code principles.</em>
+  <em>Software engineer focused on scalable backend architectures, distributed data persistence, and resilient service design. Strong advocate for Test-Driven Development (TDD), domain isolation, and clean code principles.</em>
 </p>
 
-<!-- Typing SVG Effect -->
+<!-- Dynamic Typing Animation -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=d9b36c&center=true&vCenter=true&width=500&lines=Backend+Architecture+%26+Microservices;Test-Driven+Development+(TDD);Hybrid+Storage+%26+Distributed+DBs;Clean+Code+%26+Modern+Web+Standards" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=d9b36c&center=true&vCenter=true&width=520&lines=Backend+Architecture+%26+Microservices;Test-Driven+Development+(TDD);Hybrid+Storage+(Relational+%2B+Cassandra);Clean+Architecture+%26+Maintainable+Code" alt="Typing SVG" />
 </a>
 
 ---
 
 </div>
 
+## 📌 Engineering Focus & Discipline
+
+My development workflow centers around building software that remains maintainable as systems scale:
+
+- **Backend Architecture & APIs:** Designing robust, decoupled RESTful services across **Java (Spring Boot)**, **C# (.NET Core)**, and modern **PHP**. Emphasizing clear boundary separation (Controller-Service-Repository), data validation, and predictable error handling.
+- **Test-Driven Development (TDD):** Writing tests before implementation to minimize regressions, ensure deterministic behavior, and keep refactoring costs low.
+- **Hybrid Data Modeling:** Combining the ACID guarantees of relational databases (**PostgreSQL**, **MySQL**) with distributed, high-write storage patterns (**Apache Cassandra**).
+- **Client & Browser Engineering:** Building zero-bloat, accessible client tools and **Manifest V3** compliant, privacy-first web extensions with zero external telemetry.
+
+---
+
 ## 🛠️ Tech Stack & Tooling
 
-| Domain | Core Technologies & Frameworks |
+| Domain | Technologies & Ecosystem |
 | :--- | :--- |
-| **Backend & Services** | `Java (Spring Boot)`, `C# (.NET Core)`, `PHP 8.x`, `REST APIs`, `Microservices` |
-| **Data & Persistence** | `PostgreSQL`, `MySQL`, `Apache Cassandra (NoSQL)`, `SQLite`, `EF Core`, `Hibernate` |
-| **Frontend & Web** | `JavaScript (ESNext, Vanilla)`, `Web Extensions (Manifest V3)`, `Responsive CSS` |
-| **Testing & Quality** | `TDD`, `JUnit`, `PHPUnit`, `Integration Testing`, `Regression Testing` |
-| **Infrastructure & CI/CD** | `Docker`, `Git / GitHub Actions`, `Linux (Bash)`, `Nginx / Apache`, `Postman` |
+| **Backend & Services** | `Java (Spring Boot, Hibernate)`, `C# (.NET Core, ASP.NET)`, `PHP 8.x`, `RESTful APIs`, `Microservices` |
+| **Databases & Storage** | `PostgreSQL`, `MySQL`, `Apache Cassandra (NoSQL)`, `SQLite`, `Entity Framework Core` |
+| **Frontend & Client** | `JavaScript (ESNext, Vanilla)`, `Web Extensions (Manifest V3)`, `Responsive CSS / Tailwind` |
+| **Testing & Quality** | `TDD`, `JUnit`, `PHPUnit`, `Mocking`, `Integration & Unit Testing` |
+| **DevOps & Environments** | `Docker`, `Git / GitHub`, `Linux (Bash)`, `CI/CD Workflows`, `Nginx / Apache`, `Postman` |
 
 <div align="center">
   <br />
@@ -39,15 +50,15 @@
 
 ---
 
-## 🚀 Featured Open Source & Projects
+## 🚀 Selected Projects
 
 <div align="center">
 
-| Project | Description & Core Highlights | Stack | Link |
+| Project | Highlights & Architecture | Tech Stack | Link |
 | :--- | :--- | :--- | :---: |
-| **🌐 Lincle** | **Privacy-focused browser extension.** Bypasses intrusive redirects and trackers locally without third-party analytics. Localized in 14 languages. | `JS (ESNext)`<br>`Manifest V3`<br>`Web Ext API` | [Repo ↗](https://github.com/Nyxa48/lincle) |
-| **🛒 Hepsisepette** | **E-commerce backend & transactional simulation.** Multi-tier architecture handling catalog management, basket sessions, and checkout flows. | `Java`<br>`Spring Boot`<br>`MySQL`<br>`Cassandra` | [Repo ↗](https://github.com/Nyxa48/hepsisepette) |
-| **🤝 Vera Platform** | **B2B contract & milestone management.** Role-based access control (RBAC), explicit state-machine workflows, and isolated DB queries. | `C#`<br>`.NET 10`<br>`EF Core`<br>`SQLite` | [Repo ↗](https://github.com/Nyxa48/vera-platform) |
+| **🌐 Lincle** | **Privacy-focused browser extension.** Bypasses intrusive redirects and trackers locally without remote pings or telemetry. Supports 14 localized languages via Manifest V3. | `JavaScript (ESNext)`<br>`Web Extensions API`<br>`Manifest V3` | [View Repo ↗](https://github.com/Nyxa48/lincle) |
+| **🛒 Hepsisepette** | **E-commerce & transactional backend.** Multi-tier architecture handling catalog management, basket sessions, and order flows with a **hybrid data model** (MySQL + Apache Cassandra). | `Java`<br>`Spring Boot`<br>`MySQL`<br>`Apache Cassandra` | [View Repo ↗](https://github.com/Nyxa48/hepsisepette) |
+| **🤝 Vera Platform** | **B2B contract & milestone management.** Role-Based Access Control (RBAC), explicit state-machine workflows, audit logging, and optimized query paths via EF Core. | `C#`<br>`.NET 10`<br>`Entity Framework Core`<br>`SQLite` | [View Repo ↗](https://github.com/Nyxa48/vera-platform) |
 
 </div>
 
@@ -67,6 +78,7 @@
     </tr>
   </table>
 </div>
+
 ---
 
 ## 💡 Engineering Principles
@@ -75,8 +87,12 @@
 class SoftwareEngineer:
     def __init__(self):
         self.name = "Emir Samed Yalçınkaya"
-        self.mindset = ["Clean Architecture", "TDD", "System Resilience", "Zero Bloat"]
-        self.currently_exploring = ["Distributed Systems", "AI & Large-scale Backends"]
+        self.focus_areas = [
+            "Clean Architecture",
+            "Test-Driven Development (TDD)",
+            "System Resilience",
+            "Zero Dependency Bloat"
+        ]
 
     def philosophy(self):
-        return "Write code that is easy to delete, impossible to misinterpret, and tested thoroughly."
+        return "Write code that is straightforward to read, easy to test, and safe to refactor."
